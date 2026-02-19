@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photo placeholder</title>
+  <desc id="desc">Illustrated profile placeholder you can replace with your own photo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f1dfcb" />
+      <stop offset="100%" stop-color="#d8c1a0" />
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#264653" />
+      <stop offset="100%" stop-color="#1d3557" />
+    </linearGradient>
+  </defs>
+  <rect width="720" height="900" fill="url(#bg)" />
+  <circle cx="360" cy="315" r="160" fill="#f3c7a2" />
+  <path d="M208 321c16-117 91-174 152-174s136 57 152 174c-32-44-65-65-152-65s-120 21-152 65z" fill="#2f241f" />
+  <path d="M166 810c12-154 112-238 194-238s182 84 194 238" fill="url(#shirt)" />
+  <circle cx="299" cy="325" r="10" fill="#2d201a" />
+  <circle cx="421" cy="325" r="10" fill="#2d201a" />
+  <path d="M302 408c22 20 94 20 116 0" fill="none" stroke="#8a3f2f" stroke-width="8" stroke-linecap="round" />
+  <text x="360" y="858" text-anchor="middle" font-family="DM Sans, sans-serif" font-size="26" fill="#45352d">
+    Replace with your photo: assets/profile.jpg
+  </text>
+</svg>
